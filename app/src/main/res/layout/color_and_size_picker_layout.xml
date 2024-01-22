@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/love"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_rectangle"
+    android:padding="10dp"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- 색상 선택 버튼 예시 -->
+        <android.widget.Button
+            android:id="@+id/color_button_black"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_weight="1"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/color_selector_black"
+            android:contentDescription="black_color_button" />
+        <android.widget.Button
+            android:id="@+id/color_button_red"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_weight="1"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/color_selector_red"
+            android:contentDescription="red_color_button" />
+        <android.widget.Button
+            android:id="@+id/color_button_blue"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_weight="1"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/color_selector_blue"
+            android:contentDescription="blue_color_button"/>
+        <android.widget.Button
+            android:id="@+id/color_button_purple"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_weight="1"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/color_selector_purple"
+            android:contentDescription="purple_color_button"/>
+        <android.widget.Button
+            android:id="@+id/color_button_green"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_weight="1"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/color_selector_green"
+            android:contentDescription="green_color_button"/>
+        <ImageButton
+            android:id="@+id/btn_erase"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/eraser"
+            android:contentDescription="erase_button"/>
+    </LinearLayout>
+</LinearLayout>

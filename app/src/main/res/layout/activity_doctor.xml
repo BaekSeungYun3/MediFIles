@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".DoctorActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MediFile"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:letterSpacing="0.02"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:letterSpacing="0.02"
+        android:text="화면녹화해서 환자한테 보여줄거니까 제대로 진료하셈"
+        android:textColor="#6C6C6C"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/rb"
+        android:layout_width="240dp"
+        android:layout_height="65dp"
+        app:cornerRadius = "20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:text="Start Recording!"
+        android:textSize="20dp"
+        android:letterSpacing="0.02"
+        android:backgroundTint="#96B7F5"/>
+
+    <ImageView
+        android:layout_width="330dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/medifile" />
+
+
+</LinearLayout>

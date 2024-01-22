@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".PatientListActivity">
+
+    <TextView
+        android:id="@+id/medifileText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MediFile"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:letterSpacing="0.02"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:letterSpacing="0.02"
+        android:text="진료 볼 환자를 선택해주세요."
+        android:textColor="#6C6C6C"
+        android:textSize="16dp"
+        android:layout_below="@id/medifileText" />
+
+    <ImageView
+        android:layout_width="330dp"
+        android:layout_height="280dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/medifile" />
+
+    <ListView
+        android:id="@+id/userListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="0.5dp"
+        android:padding="100dp"
+        android:layout_below="@id/medifileText" />
+
+</RelativeLayout>

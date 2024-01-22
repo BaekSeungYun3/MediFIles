@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <!-- 눌렸을 때의 상태: 색상을 약간 밝게 합니다. -->
+        <shape android:shape="oval">
+            <solid android:color="#E0E0E0"/> <!-- 눌렸을 때의 색상 -->
+            <corners android:radius="50dp"/> <!-- 완전한 원을 만들기 위해 큰 값 지정 -->
+        </shape>
+    </item>
+    <item>
+        <!-- 기본 상태: 검은색을 설정합니다. -->
+        <shape android:shape="oval">
+            <solid android:color="#3D5AFE"/> <!-- 기본 색상 -->
+            <corners android:radius="50dp"/> <!-- 완전한 원을 만들기 위해 큰 값 지정 -->
+        </shape>
+    </item>
+</selector>

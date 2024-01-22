@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "618585106956",
+    "project_id": "medifile-51d3a",
+    "storage_bucket": "medifile-51d3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618585106956:android:98ef5741ac249cb11c1c29",
+        "android_client_info": {
+          "package_name": "com.example.medifiles"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdk-bpBtLTKjy38MnG8NcwPrtl6XW65IU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
